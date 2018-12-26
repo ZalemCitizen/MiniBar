@@ -674,8 +674,8 @@
 
             // Cancel after allotted interval
             if (ct > duration) {
-                caf(mb.frame);
-				mb.content[scrollPos[axis]] = Math.ceil(pos + amount);
+                //caf(mb.frame);
+				        mb.content[scrollPos[axis]] = Math.ceil(pos + amount);
                 return;
             }
 
